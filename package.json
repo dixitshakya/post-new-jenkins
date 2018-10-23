@@ -1,0 +1,17 @@
+{
+  "name": "post-new-jenkins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "newman": "*"
+  },
+  "scripts": {
+    "api-test-dev":"newman run tests/MovieTest.postman_collection"
+  },
+  "author": "",
+  "license": "ISC"
+}
